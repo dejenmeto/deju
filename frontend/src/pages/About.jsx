@@ -30,7 +30,7 @@ const About = () => {
           <Col md={4} className="text-center mb-4">
             <div className="about-photo-container">
               <PhotoContainer
-                src="/assets/images/dejen.jpg" // Update with your photo path
+                src="../assets/images/dejen.jpg" // Update with your photo path
                 alt="Dejen Meto - Veterinary Student & Developer"
                 size="large" // Changed from xlarge to large
                 shape="circle"
