@@ -2,6 +2,7 @@
 import React from "react";
 import { Container, Row, Col, Card, ProgressBar, Badge } from "react-bootstrap";
 import PhotoContainer from "../components/PhotoContainer";
+import Photo from "../assets/images/dejen.jpg"
 
 const About = () => {
   const stats = [
@@ -30,7 +31,8 @@ const About = () => {
           <Col md={4} className="text-center mb-4">
             <div className="about-photo-container">
               <PhotoContainer
-                src="../assets/images/dejen.jpg" // Update with your photo path
+                {/* src="../assets/images/dejen.jpg" // Update with your photo path */}
+              src= {Photo} 
                 alt="Dejen Meto - Veterinary Student & Developer"
                 size="large" // Changed from xlarge to large
                 shape="circle"
